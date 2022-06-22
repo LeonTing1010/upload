@@ -1,4 +1,4 @@
-import upload from "./src/upload.js";
+import upload from "./upload.js";
 import fs from "fs";
 import "dotenv/config";
 

@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "upload files",
   "main": "index.js",
+  "build": "webpack",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "pkg . -t node17-macos-x64 ./dist -d",
-    "start": "webpack"
+    "build": "webpack"
   },
   "pkg": {
     "scripts": "build/**/*.js",
